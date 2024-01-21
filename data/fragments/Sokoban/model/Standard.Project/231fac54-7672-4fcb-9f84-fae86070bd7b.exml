@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sokoban" version="4">
+  <OBJECT>
+    <ID name="Sokoban" mc="Standard.Project" uid="231fac54-7672-4fcb-9f84-fae86070bd7b"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Sokoban]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="sokoban" mc="Standard.Package" uid="6eb31c23-8361-487e-acad-58724991676e"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Sokoban" mc="Infrastructure.DiagramSet" uid="2bfe8cad-36ee-48ef-898e-12d5c783eb2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

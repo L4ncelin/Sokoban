@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="entity" version="4">
+  <OBJECT>
+    <ID name="entity" mc="Standard.Package" uid="badcea46-e331-47e1-80e7-5f57804b5209"/>
+    <PID name="sokoban" mc="Standard.Package" uid="6eb31c23-8361-487e-acad-58724991676e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[entity]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Position" mc="Standard.Class" uid="4133d0cb-0345-4558-b92f-c426fdcecaba"/>
+        <COMPID name="Warehouse" mc="Standard.Class" uid="ae22fb5b-7a80-4243-b27c-42464bf416da"/>
+        <COMPID name="Square" mc="Standard.Class" uid="4de999e6-0fcc-40ae-b539-472e69e7c881"/>
+        <COMPID name="Wall" mc="Standard.Class" uid="a2b4389b-51ca-4184-90cc-023d05c1e3fb"/>
+        <COMPID name="Box" mc="Standard.Class" uid="20154d55-4ee2-4705-a864-160ccf34ceb1"/>
+        <COMPID name="Man" mc="Standard.Class" uid="307b4c41-869b-43ef-91f6-7cd4d1097716"/>
+        <COMPID name="Moveable" mc="Standard.Class" uid="a12f4cbe-e5b3-48a7-8b13-3892c9d95cc6"/>
+        <COMPID name="Floor" mc="Standard.Class" uid="485a9672-fb44-4519-85b8-f06e3220a0ee"/>
+        <OBJECT>
+          <ID name="Direction" mc="Standard.Enumeration" uid="1447d2f8-dfe0-48b2-8f67-731ca1cceb43"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Direction]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="UP" mc="Standard.EnumerationLiteral" uid="1578152d-248c-405b-82c5-7013c3a149fb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[UP]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="DOWN" mc="Standard.EnumerationLiteral" uid="7e52e7b2-1421-4697-9ed3-d2bb9a8045ac"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[DOWN]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="LEFT" mc="Standard.EnumerationLiteral" uid="53a7ed8d-cd6e-438b-bb2f-2bd0869b5ab4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[LEFT]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="RIGHT" mc="Standard.EnumerationLiteral" uid="46c0220b-20eb-49ef-9b39-56d643cf7457"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RIGHT]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Entity diagram" mc="Standard.ClassDiagram" uid="c11ccebc-d3d9-434a-a050-29e4028db396"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

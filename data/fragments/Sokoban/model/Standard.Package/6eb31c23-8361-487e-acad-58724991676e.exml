@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sokoban" version="4">
+  <OBJECT>
+    <ID name="sokoban" mc="Standard.Package" uid="6eb31c23-8361-487e-acad-58724991676e"/>
+    <PID name="Sokoban" mc="Standard.Project" uid="231fac54-7672-4fcb-9f84-fae86070bd7b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sokoban]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="1f89d98c-5dad-4747-a5ec-73c254b0a728"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="775295c9-65be-4dce-abf5-c9a2dac96e94"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="entity" mc="Standard.Package" uid="badcea46-e331-47e1-80e7-5f57804b5209"/>
+        <COMPID name="control" mc="Standard.Package" uid="8c723924-dcae-4264-8fe5-98884c5de207"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
